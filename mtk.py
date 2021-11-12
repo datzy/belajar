@@ -97,7 +97,7 @@ while True :
     import os
     
     time.sleep(1)
-    print ("BELAJAR MTK BERSAMA MUAMMAR")
+    print ("BELAJAR MTK BERSAMA AMAR")
     time.sleep(1)
     os.system('cls')
     menu()
