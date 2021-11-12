@@ -3,11 +3,11 @@ import time
 import os
 
 def Human(x):
-    print("Sebentar Muammar sedang memilih angka")
+    print("Sebentar aku sedang memilih angka")
     time.sleep(3)
-    print("Muammar sudah selesai memlilih angka")
+    print("Aku sudah selesai memlilih angka!!")
     time.sleep(1)
-    print("Silahkan tebak angka pilihan Muammar range 1 sampai 10")
+    print("Silahkan tebak angka pilihanku range 1 sampai 10")
     time.sleep(3)
     os.system('cls')
     random_number = random.randint(1, x)
@@ -33,7 +33,7 @@ def Human(x):
 def Computer(x):
     print("Silahkan pilih angka 1 - 10")
     time.sleep(1)
-    print("Muammar akan menebak angka tersebut !!")
+    print("Aku akan menebak angka tersebut !!")
     time.sleep(1)
     os.system('cls')
     low = 1
@@ -50,7 +50,7 @@ def Computer(x):
         elif feedback == 'r':
             low = guess + 1
         elif feedback== 'b':
-            print(f"Hore!! Muammar berhasil menebak, {guess}, dengan benar!!")
+            print(f"Hore!! Aku berhasil menebak, {guess}, dengan benar!!")
             time.sleep(2)
             os.system('cls')
             Lanjut()
@@ -63,8 +63,8 @@ def Computer(x):
 def menu():
     print("Tentukan jenis permainan anda!")
     time.sleep(1)
-    print("1. Kamu menebak Muammar")
-    print("2. Muammar menebak kamu")
+    print("1. Kamu menebak Aku")
+    print("2. Aku menebak kamu")
     print("3. Keluar")
     pilihan = int(input("Tentukan: "))
     if pilihan==1:
