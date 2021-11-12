@@ -1,6 +1,7 @@
 # belajar
 belajar bersama muammar
 
-credit to : \
-https://codeload.github.com/kying18/ with little adjustment,\
-and a few source that cant mention.
+thanks to : \
+-https://codeload.github.com/kying18/ with little adjustment,\
+-freecodecamp.org, \
+-and another source that cant mention.
