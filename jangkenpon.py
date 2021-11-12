@@ -88,7 +88,7 @@ def menu():
 
 print("="*70)
 time.sleep(1)
-print("MARI BERMAIN SUIT BERSAMA MUAMMAR")
+print("MARI BERMAIN SUIT BERSAMA AMAR")
 time.sleep(2)
 print("="*70)
 time.sleep(1)
